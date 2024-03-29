@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h1>tampilan login</h1>
+    <h1 class="">tampilan login</h1>
 </body>
 
 </html>
