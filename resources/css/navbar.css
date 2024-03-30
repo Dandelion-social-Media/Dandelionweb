@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+.nav{
+@apply relative me-5 text-white font-Poppins font-thin tracking-[1px]
+hover:text-lightblue
+}
+.nav::after{
+@apply absolute content-[''] bg-lightblue h-[3px] w-[0]
+left-0 bottom-[-8px] duration-500
+}
+.nav:hover::after{
+@apply w-[100%]
+}
+}
