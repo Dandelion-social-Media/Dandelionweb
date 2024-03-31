@@ -10,5 +10,5 @@ Route::get('/hello', function () {
 });
 
 Route::get('/home', function () {
-    return view('leanding_page.home');
+    return view('landing_page.home');
 });
