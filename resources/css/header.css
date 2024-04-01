@@ -4,13 +4,13 @@
 
 @layer utilities{
 .nav{
-@apply relative me-5 tracking-[0.5px] font-normal text-dark-blue hover:text-dark-blue
+@apply relative me-5 font-Poppins font-semibold font-sans text-dark-blue hover:text-dark-blue
 }
 .nav::after{
-    @apply absolute content-[''] bg-dark-blue w-[0] h-[2px]  left-0 bottom-[-8px]
-    duration-500 ease-linear
+@apply absolute content-[''] bg-dark-blue w-[0] h-[2px] left-0 bottom-[-8px]
+duration-500 ease-linear
 }
 .nav:hover::after{
-    @apply w-[100%]
+@apply w-[100%]
 }
 }
